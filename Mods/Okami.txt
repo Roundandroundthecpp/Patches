@@ -1,0 +1,6 @@
+Time moves 2x slower
+
+patch=1,EE,0026B5B8,word,0803FE80
+patch=1,EE,000FFA00,word,24A5FFCE
+patch=1,EE,000FFA04,word,0809AD6F
+patch=1,EE,000FFA08,word,AE050260
