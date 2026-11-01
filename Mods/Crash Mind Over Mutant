@@ -1,0 +1,20 @@
+Save and load multiplier
+SLUS-21728
+
+//load
+patch=1,EE,00473AD4,word,0803FE80
+patch=1,EE,000FFA00,word,3C1B01B4
+patch=1,EE,000FFA04,word,377B7F90
+patch=1,EE,000FFA08,word,8F760000
+patch=1,EE,000FFA0C,word,3C1B01A7
+patch=1,EE,000FFA10,word,377BC9F0
+patch=1,EE,000FFA14,word,AF760000
+patch=1,EE,000FFA18,word,03E00008
+patch=1,EE,000FFA1C,word,24160000
+
+//save
+patch=1,EE,00307B9C,word,0C03FEC0
+patch=1,EE,000FFB00,word,3C1B01B4
+patch=1,EE,000FFB04,word,377B7F90
+patch=1,EE,000FFB08,word,A3660000
+patch=1,EE,000FFB0C,word,0811D222
